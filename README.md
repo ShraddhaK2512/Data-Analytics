@@ -18,22 +18,19 @@ It processes data using Apache Spark (PySpark) in Databricks and visualizes insi
   `import matplotlib.pyplot as plt`
 
 ## Project Workflow
-  1 Create a Spark Session
+  1 Create a Spark Session: 
     `spark = SparkSession.builder.appName("CrimeAnalysis").getOrCreate()`
   2 Fetch Data from Real-Time API
-  Uses requests to fetch JSON data.
+      Uses requests to fetch JSON data.
   3 Convert JSON Data to Pandas DataFrame
-    `df = pd.DataFrame(response.json())`
+      `df = pd.DataFrame(response.json())`
   4 Convert Pandas DataFrame to Spark DataFrame
-    `spark_df = spark.createDataFrame(df)`
+      `spark_df = spark.createDataFrame(df)`
 
 ## Key Questions Answered
   1 What are the most prevalent crime types in Phoenix?
-    Count-based analysis of crime types.
   2 Where are the crime hotspots in Phoenix?
-    Bar Graph visualization of crime locations.
   3 What are the temporal patterns of crime in Phoenix?
-    Line Graph analysis of crime trends over time.
 
   Finally Converted Spark DataFrame to Pandas DataFrame for visualization.
 
