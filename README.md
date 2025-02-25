@@ -35,10 +35,10 @@ It processes data using Apache Spark (PySpark) in Databricks and visualizes insi
   Finally Converted Spark DataFrame to Pandas DataFrame for visualization.
 
   ## Project Notebook Link
-  [Crime Analysis Project Databricks Notebook]: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4819981603588590/249422360864141/6315475593687325/latest.html
+  [Crime Analysis Project Databricks Notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4819981603588590/249422360864141/6315475593687325/latest.html)
 
   ## Open Data link source
-  [Data Source]: https://www.phoenixopendata.com/dataset/crime-data
+  [Data Source](https://www.phoenixopendata.com/dataset/crime-data)
 
   ## How to Run the Project
   - Load the Databricks notebook.
